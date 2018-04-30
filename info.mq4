@@ -11,7 +11,6 @@
 
 #include <order.mqh>
 
-
 void OnStart() {
    Order order = get_order(OP_BUY);
    Alert("Order size buy: ", order.size, " Volatility: ", order.volatility);

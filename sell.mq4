@@ -18,6 +18,4 @@ void OnStart() {
       Alert(GetLastError());
       return;
    }
-   ObjectCreate(0, "STOP LOSS SELL", OBJ_HLINE, 0, 0, order.stop);
-   ObjectSet("STOP LOSS SELL", OBJPROP_WIDTH, 3);
 }
